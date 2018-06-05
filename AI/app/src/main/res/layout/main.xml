@@ -2,24 +2,32 @@
 <LinearLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_height="match_parent"
-	android:layout_width="match_parent">
+	android:layout_width="match_parent"
+	android:orientation="horizontal"
+	android:gravity="center"
+	android:fitsSystemWindows="true">
 
 	<ScrollView
+		android:layout_gravity="center_horizontal"
 		android:layout_height="fill_parent"
 		android:layout_width="fill_parent"
-		android:fillViewport="true">
+		android:fillViewport="true"
+		android:scrollbars="none">
 
 		<RelativeLayout
 			android:layout_height="800dp"
-			android:layout_width="fill_parent"
-			android:background="#2E2E2E">
-
+			android:layout_width="fill_parent">
+			
 			<LinearLayout
-				android:layout_height="800dp"
-				android:layout_width="match_parent"
-				android:orientation="horizontal"/>
+				android:gravity="center"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="100dp"
+				android:background="#DF180B">
 
+			</LinearLayout>
 		</RelativeLayout>
+		
 
 	</ScrollView>
 
